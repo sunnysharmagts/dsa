@@ -19,6 +19,11 @@ public class LargeFactorial {
         return sb.toString();
     }
     
+    /*
+     * Iterate recursively over the nums till 1 and return the list with value 1.
+     * 
+     * Now multiply the current value with return value and return the new generated arrayList. 
+     */
     private List<Integer> factorial(int num) {
         if(num == 1) {
         	final List<Integer> list = new ArrayList<Integer>();
