@@ -8,11 +8,19 @@ public class MinimumLightsToActivate {
 	public static void main(String[] args) {
 		var obj = new MinimumLightsToActivate();
 		System.out.println(obj.solve(new ArrayList<>(Arrays.asList(0, 0, 1, 1, 1, 0, 0, 1)), 3));
+		
+		
 		System.out.println(obj.solve(new ArrayList<>(Arrays.asList(1, 1, 1, 1)), 3));
+		
 		System.out.println(obj.solve(new ArrayList<>(Arrays.asList(1, 1, 0, 0, 1, 1)), 1));
 		System.out.println(obj.solve(new ArrayList<>(Arrays.asList(0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0)), 4));
+		
 		System.out.println(obj.solve(new ArrayList<>(Arrays.asList(1, 1, 1)), 6));
+		
 	}
+	
+	//(0, 4), (1,5), (2, 6)   (5, 7)
+	
 	
 /*
  * STATUS - REJECTED
